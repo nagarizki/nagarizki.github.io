@@ -75,7 +75,7 @@ export const CV_DATA: CV = {
                 "Monitored system performance and reliability to maintain high availability.",
                 "Built dashboards using React.js, Looker Studio, and Superset to visualize key metrics and business insights."
             ],
-            badges: ["React JS", "Tailwind", "PrimeReact", "GraphQL", "Fastify", "Vite", "Prisma", "SQL Server", "Looker Studio", "Superset",
+            badges: ["React JS", "TypeScript", "Tailwind", "GraphQL", "Fastify", "Prisma", "SQL Server", "Looker Studio", "Superset",
                 "Docker", "REST", "k6"],
         },
         {
@@ -91,11 +91,11 @@ export const CV_DATA: CV = {
                 using R and Python to support core business operations.`,
                 `Built a real-time web application for data entry, processing, and monitoring, with data validation
                 and interactive dashboards.`,
-                `Engineered data solutions using R, spreadsheets, cloud storage, and SQL Server to ensure data integrity
+                `Engineered data solutions using R, Google Sheets, Excel, cloud storage, and SQL Server to ensure data integrity
                 and availability.`,
                 "Designed multiple visualizations to communicate data insights to stakeholders effectively."
             ],
-            badges: ["R", "Python", "REST", "Google Spreadsheets", "Ms Excel", "PHP", "JQuery", "Yii", "Bootstrap", "SQL Server",
+            badges: ["R", "Python", "REST", "Google Sheets", "Excel", "PHP", "JQuery", "Yii", "Bootstrap", "SQL Server",
                 "Adobe Illustrator"],
         },
         {
@@ -115,7 +115,7 @@ export const CV_DATA: CV = {
                 "Drafted and prepared publications to effectively communicate official statistical data to the public.",
                 "Participated in surveys & census, handling preparation, data collection, data entry & validation, analysis, and dissemination."
             ],
-            badges: ["Visual Basic", "Ms Excel", "Google Sheets", "Adobe Indesign", "Adobe Illustrator", "Adobe Photoshop",
+            badges: ["Visual Basic", "Excel", "Google Sheets", "Adobe Indesign", "Adobe Illustrator", "Adobe Photoshop",
                 "Adobe Premiere Pro", "DaVinci Resolve"],
         }
     ],
