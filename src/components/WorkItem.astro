@@ -32,7 +32,7 @@ const {company, link, title, start, end, description, achievements, badges} = As
         <div class="text-pretty font-mono text-[13px] text-muted-foreground">
             <div class="mt-2 text-xm text-foreground/80 print:mt-1 print:text-[12px] text-pretty">
                 {description}
-                <ul class="list-inside list-disc">
+                <ul class="list-outside list-disc pl-4">
                 {achievements?.map((achievement) => (
                     <li>{achievement}</li>
                 ))}

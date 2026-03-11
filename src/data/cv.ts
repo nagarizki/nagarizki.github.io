@@ -76,7 +76,7 @@ export const CV_DATA: CV = {
                 "Built dashboards using React.js, Looker Studio, and Superset to visualize key metrics and business insights."
             ],
             badges: ["React JS", "TypeScript", "Tailwind", "GraphQL", "Fastify", "Prisma", "SQL Server", "Looker Studio", "Superset",
-                "Docker", "REST", "k6"],
+                "Docker", "REST"],
         },
         {
             company: "BPS-Statistics Indonesia",
@@ -128,7 +128,7 @@ export const CV_DATA: CV = {
         },
     ],
     skills: [
-        "JavaScript", "TypeScript", "Node.js", "React JS", "Next JS", "Astro JS", "Svelte", "Vanilla JS", "Nest JS", "Express JS",
+        "JavaScript", "TypeScript", "Node.js", "React/Next JS", "Astro JS", "Svelte", "Vanilla JS", "Nest JS", "Express JS",
         "Fastify", "Flutter", "JQuery", "Tailwind", "Ant Design", "Material UI", "shadcn/ui", "CSS Animation", "TanStack-Query",
         "SQL", "REST", "GraphQL", "Python", "Data Visualization", "Looker Studio", "Tableau", "Power BI", "Superset"
     ],
