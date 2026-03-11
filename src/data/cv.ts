@@ -47,8 +47,8 @@ export const CV_DATA: CV = {
     location: "Jakarta, Indonesia",
     locationLink: "https://www.google.com/maps/place/Jakarta",
     about: "Software Engineer focused on building high-quality and scalable products.",
-    summary: `A Software Engineer specializing in developing high-performance, scalable projects using Next JS and Flutter. I have extensive experience building core functionalities for complex platforms in National Account Statistics (NAS), HR Management, 
-        and Healthcare.`,
+    summary: `Software Engineer focused on building scalable, high-performance applications with Next.js,
+    with experience developing core platforms in National Account Statistics, HR management, and healthcare systems.`,
     personalWebsiteUrl: "https://nagarizki.github.io",
     contact: {
         email: "nagari.rizki@gmail.com",
@@ -65,15 +65,15 @@ export const CV_DATA: CV = {
             title: "Software Engineer",
             start: "January 2024",
             end: "Present",
-            description: `Developed solutions for diverse projects, including a healthcare cloud-sync feature, a GIS 
-                        visualization platform, and an internal automation tool.`,
+            description: `Developed software solutions for diverse projects, including EMR systems, supply chain and
+            logistics management platforms, and interactive data visualization dashboards.`,
             achievements: [
-                `Engineer scalable healthcare web app with React JS and Fastify for operational management, financial management,
-                human resources, supply chain management, and regulatory compliance.`,
-                "Develop secure GraphQL APIs with Prisma and SQL Server for frontend and internal system integration.",
-                "Manage SQL Server schema evolution and data integrity using Prisma for database migrations.",
-                "Monitor system performance and health to ensure high availability.",
-                "Develop dashboards using React.js, Looker Studio, and Superset to visualize key metrics and business insights."
+                `Engineered a scalable healthcare web application using React JS and Fastify for operational management, financial management,
+                HR, supply chain, and regulatory compliance.`,
+                "Developed secure GraphQL APIs with Prisma and SQL Server for frontend and internal system integrations.",
+                "Managed SQL Server schema evolution and ensured data integrity using Prisma migrations.",
+                "Monitored system performance and reliability to maintain high availability.",
+                "Built dashboards using React.js, Looker Studio, and Superset to visualize key metrics and business insights."
             ],
             badges: ["React JS", "Tailwind", "PrimeReact", "GraphQL", "Fastify", "Vite", "Prisma", "SQL Server", "Looker Studio", "Superset",
                 "Docker", "REST", "k6"],
@@ -84,16 +84,18 @@ export const CV_DATA: CV = {
             title: "Software and Data Engineer",
             start: "January 2021",
             end: "December 2023",
-            description: "Developed a high-precision, automated end-to-end ETL platform for financial statement data.",
+            description: `Developed a high-precision end-to-end ETL platform for collecting, processing, analyzing,
+            and visualizing financial statement data, and built web application for real-time data entry, processing, and monitoring.`,
             achievements: [
-                `Developed and maintained scalable financial statements data collection platform from Indonesia Stock Exchange website
-                using R and Python to support core business processes.`,
-                "Engineered data solutions using spreadsheets, BPS Cloud Platform, and SQL Server to ensure data integrity and availability",
-                `Built a real-time web application for data entry, processing, and monitoring, incorporating data validation,
-                interactive dashboards, and dynamic data forms.`,
-                "Designed multiple visualizations to communicate critical data insights to stakeholders."
+                `Developed and maintained a scalable platform for collecting financial statement data from the Indonesia Stock Exchange
+                using R and Python to support core business operations.`,
+                `Built a real-time web application for data entry, processing, and monitoring, with data validation
+                and interactive dashboards.`,
+                `Engineered data solutions using R, spreadsheets, cloud storage, and SQL Server to ensure data integrity
+                and availability.`,
+                "Designed multiple visualizations to communicate data insights to stakeholders effectively."
             ],
-            badges: ["R", "Python", "REST", "Google Spreadsheets", "Ms Excel", "PHP", "JQuery", "Yii", "SQL Server",
+            badges: ["R", "Python", "REST", "Google Spreadsheets", "Ms Excel", "PHP", "JQuery", "Yii", "Bootstrap", "SQL Server",
                 "Adobe Illustrator"],
         },
         {
@@ -106,14 +108,14 @@ export const CV_DATA: CV = {
             and an internal automation tool.`,
             achievements: [
                 "Built and maintained an employee management and automation tool for enterprise applications using Visual Basic and Excel.",
-                `Implemented a cloud-based solution on Google Cloud to enable efficient data collection and collaboration,
+                `Implemented a cloud-based solution to enable efficient data collection and collaboration,
                 supporting core business processes.`,
-                "Managed Google Spreadsheets and Ms Excel databases, ensuring data integrity and availability.",
-                "Took care of hardware, software, network connection, and map digitization to support statistical activity.",
+                "Managed Google Sheets and Excel databases, ensuring data integrity and availability.",
+                "Maintained hardware, software, network connections, and performed map digitization to support statistical activities.",
                 "Drafted and prepared publications to effectively communicate official statistical data to the public.",
-                "Worked in surveys & census from preparation, data collection, data entry & validation, data analysis, and dissemination."
+                "Participated in surveys & census, handling preparation, data collection, data entry & validation, analysis, and dissemination."
             ],
-            badges: ["Visual Basic", "Ms Excel", "Google Spreadsheets", "Adobe Indesign", "Adobe Illustrator", "Adobe Photoshop",
+            badges: ["Visual Basic", "Ms Excel", "Google Sheets", "Adobe Indesign", "Adobe Illustrator", "Adobe Photoshop",
                 "Adobe Premiere Pro", "DaVinci Resolve"],
         }
     ],
@@ -126,7 +128,8 @@ export const CV_DATA: CV = {
         },
     ],
     skills: [
-        "JavaScript", "TypeScript", "Node.js", "Next JS", "Astro JS", "Svelte", "Vanilla JS", "Flutter", "JQuery", "Tailwind", "Ant Design",
-        "CSS Animation", "TanStack-Query", "SQL", "REST", "GraphQL", "Python", "Data Visualization", "Looker Studio", "Tableau", "Power BI", "Superset"
+        "JavaScript", "TypeScript", "Node.js", "React JS", "Next JS", "Astro JS", "Svelte", "Vanilla JS", "Nest JS", "Express JS",
+        "Fastify", "Flutter", "JQuery", "Tailwind", "Ant Design", "Material UI", "shadcn/ui", "CSS Animation", "TanStack-Query",
+        "SQL", "REST", "GraphQL", "Python", "Data Visualization", "Looker Studio", "Tableau", "Power BI", "Superset"
     ],
 };
