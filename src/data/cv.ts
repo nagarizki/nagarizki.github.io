@@ -44,8 +44,8 @@ export interface Education {
 export const CV_DATA: CV = {
     name: "Rizki Nagari",
     title: "Software Engineer",
-    location: "Jakarta, Indonesia",
-    locationLink: "https://www.google.com/maps/place/Jakarta",
+    location: "Bogor, Indonesia",
+    locationLink: "https://www.google.com/maps/place/Bogor+Regency",
     about: "Software Engineer focused on building high-quality and scalable products.",
     summary: `Software Engineer focused on building scalable, high-performance applications with Next.js,
     with experience developing core platforms in National Account Statistics, HR management, and healthcare systems.`,
@@ -128,7 +128,7 @@ export const CV_DATA: CV = {
         },
     ],
     skills: [
-        "JavaScript", "TypeScript", "Node.js", "React/Next JS", "Astro JS", "Svelte", "Vanilla JS", "Nest JS", "Express JS",
+        "JavaScript", "TypeScript", "Node.js", "React/Next JS", "Astro JS", "Svelte/SvelteKit", "Vanilla JS", "Nest JS", "Express JS",
         "Fastify", "Flutter", "JQuery", "Tailwind", "Ant Design", "Material UI", "shadcn/ui", "CSS Animation", "TanStack-Query",
         "SQL", "REST", "GraphQL", "Python", "Data Visualization", "Looker Studio", "Tableau", "Power BI", "Superset"
     ],
