@@ -55,6 +55,7 @@ export const CV_DATA: CV = {
         tel: "+628993145251",
         social: [
             {name: "GitHub", url: "https://github.com/nagarizki"},
+            {name: "LinkedIn", url: ""},
         ],
     },
     work: [
