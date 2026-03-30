@@ -49,13 +49,12 @@ export const CV_DATA: CV = {
     about: "Software Engineer focused on building high-quality and scalable products.",
     summary: `Software Engineer focused on building scalable, high-performance applications with Next.js,
     with experience developing core platforms in National Account Statistics, HR management, and healthcare systems.`,
-    personalWebsiteUrl: "https://nagarizki.github.io",
+    personalWebsiteUrl: "https://nagarizki.github.io/site",
     contact: {
         email: "nagari.rizki@gmail.com",
         tel: "+628993145251",
         social: [
             {name: "GitHub", url: "https://github.com/nagarizki"},
-            {name: "LinkedIn", url: ""},
         ],
     },
     work: [
