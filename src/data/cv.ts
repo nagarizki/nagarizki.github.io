@@ -43,11 +43,11 @@ export interface Education {
 
 export const CV_DATA: CV = {
     name: "Rizki Nagari",
-    title: "Software Engineer",
+    title: "Data Engineer",
     location: "Bogor, Indonesia",
     locationLink: "https://www.google.com/maps/place/Bogor+Regency",
-    about: "Software Engineer focused on building high-quality and scalable products.",
-    summary: `Software Engineer focused on building scalable, high-performance applications with Next.js,
+    about: "Data Engineer focused on building high-quality and scalable products.",
+    summary: `Data Engineer focused on building scalable, high-performance applications with Next.js,
     with experience developing core platforms in National Account Statistics, HR management, and healthcare systems.`,
     personalWebsiteUrl: "https://nagarizki.github.io/site",
     contact: {
@@ -62,7 +62,7 @@ export const CV_DATA: CV = {
         {
             company: "BPS-Statistics Indonesia",
             link: "https://www.bps.go.id",
-            title: "Software Engineer",
+            title: "Backend and Data Engineer",
             start: "January 2024",
             end: "Present",
             description: `Developed software solutions for diverse projects, including EMR systems, supply chain and
@@ -81,7 +81,7 @@ export const CV_DATA: CV = {
         {
             company: "BPS-Statistics Indonesia",
             link: "https://www.bps.go.id",
-            title: "Software and Data Engineer",
+            title: "Data Engineer",
             start: "January 2021",
             end: "December 2023",
             description: `Developed a high-precision end-to-end ETL platform for collecting, processing, analyzing,
@@ -101,7 +101,7 @@ export const CV_DATA: CV = {
         {
             company: "BPS-Statistics Indonesia",
             link: "https://www.bps.go.id",
-            title: "Software Developer & IT Specialist",
+            title: "Data Engineer",
             start: "January 2019",
             end: "December 2020",
             description: `Developed solutions for diverse projects, including a HR management system, map digitization,
@@ -128,8 +128,8 @@ export const CV_DATA: CV = {
         },
     ],
     skills: [
-        "JavaScript", "TypeScript", "Node.js", "React/Next JS", "Astro JS", "Svelte/SvelteKit", "Vanilla JS", "Nest JS", "Express JS",
-        "Fastify", "Flutter", "JQuery", "Tailwind", "Ant Design", "Material UI", "shadcn/ui", "CSS Animation", "TanStack-Query",
-        "SQL", "REST", "GraphQL", "Python", "Data Visualization", "Looker Studio", "Tableau", "Power BI", "Superset"
+        "Python","R", "Git", "SQL", "Airflow", "AWS", "GCP", "Google Analytics", "Google Tag Manager", "JavaScript", "TypeScript",
+        "Node.js", "React/Next JS", "Vanilla JS", "JQuery", "Tailwind", "Ant Design", "CSS Animation", "TanStack-Query", "REST",
+        "GraphQL", "Data Visualization", "Looker Studio", "Tableau", "Power BI", "Superset"
     ],
 };
