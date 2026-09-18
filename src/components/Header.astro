@@ -6,11 +6,12 @@ import GitHub from "./icons/GitHub.astro";
 import Email from "./icons/Email.astro";
 import Phone from "./icons/Phone.astro";
 import Globe from "./icons/Globe.astro";
+import FilePdf from "./icons/FilePdf.astro";
 
 import {Image} from 'astro:assets'
 import avatarImage from '../assets/avatar.png';
 
-const {name, about, personalWebsiteUrl, contact, location, locationLink} = CV_DATA;
+const {name, about, personalWebsiteUrl, cvPdfUrl, contact, location, locationLink} = CV_DATA;
 ---
 <header class="flex items-center justify-between">
     <div class="flex-1 space-y-1.5">
@@ -32,19 +33,24 @@ const {name, about, personalWebsiteUrl, contact, location, locationLink} = CV_DA
         </p>
         <div class="flex list-none gap-x-1 pt-1 font-mono text-[13px] text-foreground/80 print:hidden"
              aria-label="Contact links">
-            <LinkButton href={personalWebsiteUrl} ariaLabel="Website">
+            <LinkButton href={personalWebsiteUrl} ariaLabel="Personal Website" title="Website">
                 <Globe class="size-4"/>
             </LinkButton>
-            <LinkButton href={`mailto:${contact.email}`} ariaLabel="Email">
+            {cvPdfUrl && (
+                <LinkButton href={cvPdfUrl} ariaLabel="Download/View CV PDF" title="CV PDF">
+                    <FilePdf class="size-4"/>
+                </LinkButton>
+            )}
+            <LinkButton href={`mailto:${contact.email}`} ariaLabel="Email" title="Email">
                 <Email class="size-4"/>
             </LinkButton>
-            <LinkButton href={`tel:${contact.tel}`} ariaLabel="Phone">
+            <LinkButton href={`tel:${contact.tel}`} ariaLabel="Phone" title="Phone">
                 <Phone class="size-4"/>
             </LinkButton>
-            <LinkButton href={contact.social[0].url} ariaLabel={contact.social[0].name}>
+            <LinkButton href={contact.social[0].url} ariaLabel={contact.social[0].name} title={contact.social[0].name}>
                 <GitHub class="size-4"/>
             </LinkButton>
-            <LinkButton href={contact.social[1].url} ariaLabel={contact.social[1].name}>
+            <LinkButton href={contact.social[1].url} ariaLabel={contact.social[1].name} title={contact.social[1].name}>
                 <LinkedIn class="size-4"/>
             </LinkButton>
         </div>
@@ -52,6 +58,14 @@ const {name, about, personalWebsiteUrl, contact, location, locationLink} = CV_DA
             <a class="underline hover:text-foreground/70" href={personalWebsiteUrl}>
                 {personalWebsiteUrl}
             </a>
+            {cvPdfUrl && (
+                <>
+                    <span aria-hidden="true">|</span>
+                    <a class="underline hover:text-foreground/70" href={cvPdfUrl}>
+                        CV (PDF)
+                    </a>
+                </>
+            )}
             <span aria-hidden="true">|</span>
             <a class="underline hover:text-foreground/70" href={`mailto:${contact.email}`}>
                 {contact.email}

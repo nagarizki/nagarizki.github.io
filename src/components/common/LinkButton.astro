@@ -2,14 +2,24 @@
 interface Props {
     href: string;
     ariaLabel: string;
+    title?: string;
+    download?: boolean | string;
 }
 
-const {href, ariaLabel} = Astro.props;
+const {href, ariaLabel, title, download} = Astro.props;
+const tooltipText = title || ariaLabel;
 ---
-<a class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-[13px] font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground size-8"
-   href={href}
-   target="_blank"
-   rel="noopener noreferrer"
-   aria-label={ariaLabel}>
-    <slot/>
-</a>
+<div class="relative group inline-flex">
+    <a class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-[13px] font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground size-8"
+       href={href}
+       target="_blank"
+       rel="noopener noreferrer"
+       aria-label={ariaLabel}
+       title={tooltipText}
+       download={download}>
+        <slot/>
+    </a>
+    <span class="absolute bottom-full left-1/2 -translate-x-1/2 mb-1.5 hidden group-hover:block group-focus-within:block pointer-events-none z-50 rounded bg-foreground px-2 py-0.5 text-[11px] font-mono text-background shadow-sm whitespace-nowrap opacity-90">
+        {tooltipText}
+    </span>
+</div>

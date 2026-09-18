@@ -6,6 +6,7 @@ export interface CV {
     about: string,
     summary: string,
     personalWebsiteUrl: string,
+    cvPdfUrl?: string,
     contact: Contact;
     work: Work[];
     education: Education[];
@@ -43,13 +44,14 @@ export interface Education {
 
 export const CV_DATA: CV = {
     name: "Rizki Nagari",
-    title: "Data Engineer",
+    title: "Data Analyst",
     location: "Bogor, Indonesia",
     locationLink: "https://www.google.com/maps/place/Bogor+Regency",
-    about: "Data Engineer focused on building high-quality and scalable products.",
-    summary: `Data Engineer focused on building scalable, high-performance applications with Next.js,
+    about: "Data Analyst focused on extracting business insights, data visualization, and building data-driven solutions.",
+    summary: `Data Analyst focused on data visualization, statistical analysis, and business intelligence,
     with experience developing core platforms in National Account Statistics, HR management, and healthcare systems.`,
     personalWebsiteUrl: "https://nagarizki.github.io/site",
+    cvPdfUrl: "/CV_Rizki_Nagari_2026_Data_Analyst.pdf",
     contact: {
         email: "nagari.rizki@gmail.com",
         tel: "+628993145251",
@@ -62,46 +64,23 @@ export const CV_DATA: CV = {
         {
             company: "BPS-Statistics Indonesia",
             link: "https://www.bps.go.id",
-            title: "Backend and Data Engineer",
-            start: "January 2024",
-            end: "Present",
-            description: `Developed software solutions for diverse projects, including EMR systems, supply chain and
-            logistics management platforms, and interactive data visualization dashboards.`,
-            achievements: [
-                `Engineered a scalable healthcare web application using React JS and Fastify for operational management, financial management,
-                HR, supply chain, and regulatory compliance.`,
-                "Developed secure GraphQL APIs with Prisma and SQL Server for frontend and internal system integrations.",
-                "Managed SQL Server schema evolution and ensured data integrity using Prisma migrations.",
-                "Monitored system performance and reliability to maintain high availability.",
-                "Built dashboards using React.js, Looker Studio, and Superset to visualize key metrics and business insights."
-            ],
-            badges: ["React JS", "TypeScript", "Tailwind", "GraphQL", "Fastify", "Prisma", "SQL Server", "Looker Studio", "Superset",
-                "Docker", "REST"],
-        },
-        {
-            company: "BPS-Statistics Indonesia",
-            link: "https://www.bps.go.id",
-            title: "Data Engineer",
+            title: "Data Analyst",
             start: "January 2021",
-            end: "December 2023",
-            description: `Developed a high-precision end-to-end ETL platform for collecting, processing, analyzing,
-            and visualizing financial statement data, and built web application for real-time data entry, processing, and monitoring.`,
+            end: "Present",
+            description: `Developed end-to-end data platforms, business intelligence dashboards, and web-based data entry systems supporting core National Account Statistics, healthcare operational management, and financial analysis.`,
             achievements: [
-                `Developed and maintained a scalable platform for collecting financial statement data from the Indonesia Stock Exchange
-                using R and Python to support core business operations.`,
-                `Built a real-time web application for data entry, processing, and monitoring, with data validation
-                and interactive dashboards.`,
-                `Engineered data solutions using R, Google Sheets, Excel, cloud storage, and SQL Server to ensure data integrity
-                and availability.`,
-                "Designed multiple visualizations to communicate data insights to stakeholders effectively."
+                "Built interactive dashboards using React.js, Looker Studio, and Superset to visualize key operational metrics and business insights for stakeholders.",
+                "Developed an automated ETL platform using R and Python to collect, process, and analyze financial statement data from the Indonesia Stock Exchange.",
+                "Engineered secure data solutions and APIs using SQL Server, Prisma, GraphQL, and Fastify to ensure data integrity and availability.",
+                "Built real-time web applications for data entry, processing, and monitoring, with automated data validation workflows.",
+                "Managed SQL Server database evolution and performance monitoring to maintain high system availability."
             ],
-            badges: ["R", "Python", "REST", "Google Sheets", "Excel", "PHP", "JQuery", "Yii", "Bootstrap", "SQL Server",
-                "Adobe Illustrator"],
+            badges: ["Python", "R", "SQL Server", "Looker Studio", "Superset", "React JS", "TypeScript", "GraphQL", "Fastify", "Prisma", "Docker", "REST", "Excel"],
         },
         {
             company: "BPS-Statistics Indonesia",
             link: "https://www.bps.go.id",
-            title: "Data Engineer",
+            title: "Data Analyst",
             start: "January 2019",
             end: "December 2020",
             description: `Developed solutions for diverse projects, including a HR management system, map digitization,
